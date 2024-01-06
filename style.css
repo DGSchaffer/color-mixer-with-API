@@ -1,0 +1,49 @@
+@viewport {
+  width: device-width;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+body {
+  background-color: #ffffff;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header div {
+  margin-top: 10px;
+}
+main {
+  height: 1000px;
+  margin: 0;
+}
+input#red {
+  accent-color: red;
+}
+input#green {
+  accent-color: green;
+}
+input#blue {
+  accent-color: blue;
+}
+#hex {
+  width: 200px;
+}
+#randomcolor {
+  all: unset;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
